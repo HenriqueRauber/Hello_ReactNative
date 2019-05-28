@@ -1,0 +1,13 @@
+> root projecters\henri\Documents\ReactProjects\Hello && react-native run-ios
+
+
+cd C:\Users\henri\Documents\ReactProjects\Hello
+npm start
+react-native start
+react-native run-android 
+
+
+//Para gerar um .apk (app-release-unsigned.apk)
+cd C:\Users\henri\Documents\ReactProjects\Hello\android\
+gradlew assembleRelease
+cd C:\Users\henri\Documents\ReactProjects\Hello\android\app\build\outputs\apk\release
